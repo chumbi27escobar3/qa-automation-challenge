@@ -1,0 +1,18 @@
+{
+  "baseUrl": "https://www.saucedemo.com",
+  "username": "standard_user",
+  "password": "secret_sauce",
+  "checout": {
+    "firstName": "Camilo",
+    "lastName": "Escobar",
+    "postalCode": "760036"
+  },
+  "products": [
+    "add-to-cart-sauce-labs-backpack",
+    "add-to-cart-sauce-labs-bike-light"
+  ],
+  "productNames": [
+    "Sauce Labs Backpack",
+    "Sauce Labs Bike Light"
+  ]
+}
