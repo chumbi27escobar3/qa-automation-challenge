@@ -1,0 +1,30 @@
+{
+  "name": "qa-automation-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:report": "marge cypress/reports/*.json -f report -o cypress/reports"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chumbi27escobar3/qa-automation-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/chumbi27escobar3/qa-automation-challenge/issues"
+  },
+  "homepage": "https://github.com/chumbi27escobar3/qa-automation-challenge#readme",
+  "devDependencies": {
+    "cypress": "^15.11.0",
+    "mochawesome": "^7.1.4",
+    "mochawesome-merge": "^5.1.1",
+    "mochawesome-report-generator": "^6.3.2"
+  }
+}

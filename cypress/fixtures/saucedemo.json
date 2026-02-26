@@ -1,0 +1,17 @@
+{
+  "username": "standard_user",
+  "password": "secret_sauce",
+  "checkout": {
+    "firstName": "Camilo",
+    "lastName": "Escobar",
+    "postalCode": "760036"
+  },
+  "products": [
+    "add-to-cart-sauce-labs-backpack",
+    "add-to-cart-sauce-labs-bike-light"
+  ],
+  "productNames": [
+    "Sauce Labs Backpack",
+    "Sauce Labs Bike Light"
+  ]
+}
