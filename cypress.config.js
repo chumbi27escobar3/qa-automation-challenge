@@ -8,12 +8,13 @@ module.exports = defineConfig({
     html: false,
     json: true,
   },
-  allowCypressEnv: false,
+  allowCypressEnv: true,
 
   e2e: {
     baseUrl: "https://www.saucedemo.com",
-    setupNodeEvents(on, config) {
-      // implement node event listeners here
+    env: {
+      petstoreBaseUrl: "https://petstore.swagger.io/v2"
     },
+    setupNodeEvents(on, config) {},
   },
 });
