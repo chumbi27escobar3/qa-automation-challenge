@@ -1,6 +1,6 @@
-import LoginPage from "../../pages/LoginPage";
-import InventoryPage from "../../pages/InventoryPage";
-import CartPage from "../../pages/CartPage";
+import LoginPage from "../../../pages/LoginPage";
+import InventoryPage from "../../../pages/InventoryPage";
+import CartPage from "../../../pages/CartPage";
 
 describe('Add to Cart', () => {
     it('should add products and see them in the cart', () => {
