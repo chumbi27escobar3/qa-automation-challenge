@@ -1,0 +1,31 @@
+Conclusiones del reto
+1. Objetivos del ejercicio
+El objetivo principal fue implementar una solución de automatización que abarcara tanto pruebas E2E como pruebas de API, aplicando buenas practicas de organización, reutilización y mantenibilidad del código.
+
+2. Decisiones técnicas tomadas
+Se implementó el patrón POM para la automatización web, con esto se logra desacoplar la lógica de la interacción con la UI, y esto ayuda a la reutilización y escalabilidad en el código.
+
+Para el manejo de los datos se utilizó fixture, lo que ayuda a la reutilización de datos y mejorar la mantenibilidad.
+
+En las pruebas de API se generaron datos dinámicos para evitar colisiones y asegurar independencia entre las ejecuciones.
+
+Se configuró el reporter Mochawesome para generar la evidencia de la ejecución y revisar los resultados fácilmente.
+
+Además, se realizó la separación clara de las pruebas web y las pruebas de API para mantener una arquitectura organizada y escalable.
+
+3. Hallazgos relevantes
+Durante la implementación se identifico:
+
+- Es importante centralizar la configuración de URLs para evitar colocarlas directamente en la lógica
+- Las pruebas de API pueden pasar pero es importante tener una verificación más profunda para verificar que los datos o el mensaje corresponda con lo esperado
+- La generación datos dinámicos para reducir la dependencia entre ejecuciones
+
+4. Posibles mejoras
+- Separación de pruebas API en múltiples casos independientes
+- Integración con un pipeline CI/CD
+- Implementar validaciones adicionales negativas en UI.
+- Consolidación automática de reportes en un único HTML 
+
+5. Conclusiones
+El ejercicio me permitió demostrar la implementación de una solución automatizada completa, aplicando buenas practicas de diseño, organización y mantenibilidad. 
+Considero que la arquitectura propuesta permite que se pueda escalar fácilmente el proyecto, agregar nuevos flujos y adaptarse a entornos reales de desarrollo continuo. 
